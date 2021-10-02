@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="layout.SubController">
+   <children>
+      <Label layoutX="156.0" layoutY="38.0" prefHeight="37.0" prefWidth="89.0" text="대학교명" textAlignment="CENTER">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="addrAll" layoutX="55.0" layoutY="93.0" prefHeight="23.0" prefWidth="67.0" text="addrAll">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="city" layoutX="213.0" layoutY="97.0" text="city" />
+      <Label fx:id="district" layoutX="265.0" layoutY="97.0" text="district" />
+      <Label fx:id="dong" layoutX="333.0" layoutY="97.0" text="dong" />
+      <Label fx:id="kind" layoutX="128.0" layoutY="161.0" text="kind" />
+      <Label fx:id="year" layoutX="62.0" layoutY="161.0" text="year" />
+      <Label fx:id="universityId" layoutX="287.0" layoutY="169.0" text="universityId" />
+      <Label fx:id="thisAddr" layoutX="63.0" layoutY="235.0" text="this" />
+      <Label fx:id="state" layoutX="199.0" layoutY="235.0" text="state" />
+      <Label fx:id="estab" layoutX="125.0" layoutY="235.0" text="estab" />
+      <Label fx:id="phone" layoutX="91.0" layoutY="416.0" text="phone" />
+      <Label fx:id="pax" layoutX="286.0" layoutY="416.0" text="pax" />
+      <Label fx:id="page" layoutX="186.0" layoutY="323.0" text="page" />
+   </children>
+</AnchorPane>

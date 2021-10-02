@@ -1,0 +1,32 @@
+#IndexBack {
+	-fx-background-image: url(/resources/index.png);
+	-fx-background-size: cover;
+	-fx-background-position: center center;
+}
+
+#loginBack {
+	-fx-background-image: url(/resources/login.png);
+	-fx-background-size: cover;
+	-fx-background-position: center center;
+}
+
+#MainBack {
+	-fx-background-image: url(/resources/main.png);
+	-fx-background-size: cover;
+	-fx-background-position: center center;
+}
+
+#joinBack {
+	-fx-background-image: url(/resources/join.png);
+	-fx-background-size: cover;
+	-fx-background-position: center center;
+}
+
+#loginBtn, #StartBtn, #joinBtn, #GojoinBtn, #GoLoginBtn {
+	-fx-background-color: #000;
+	-fx-text-fill: #fff;
+}
+
+#search {
+	-fx-border-radius: 20px;
+}
